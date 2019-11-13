@@ -1,0 +1,30 @@
+@startuml
+header
+<b>PROJECT_TITLE </b> - Component Model
+end header
+
+
+
+
+start
+:Assess Technical eligibility;
+if (Eligible?) then (yes)
+:Assess Other eligibility "COMMERCIAL";
+if (Eligible?) then (yes)
+  :Assess Other eligibility "PROFILE....";
+if (Eligible?) then (yes)
+:RETURN ELIGIBILITY=TRUE";
+else (no)
+stop
+endif
+else (no)
+stop
+endif
+else (no)
+stop
+endif
+
+stop
+
+
+@enduml

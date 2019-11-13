@@ -1,0 +1,18 @@
+@startuml
+header
+<b>PROJECT_TITLE </b>- System Context
+end header
+
+(SYSTEM) as SYSTEM
+
+:EXTERNAL ACTOR #1: as ACTOR1 <<human>>
+:EXTERNAL ACTOR #2: as ACTOR2 <<human>>
+:EXTERNAL SYSTEM #1: as SYSTEM1<<system>>
+:EXTERNAL SYSTEM #2: as SYSTEM2<<system>>
+
+ACTOR1 --|> SYSTEM
+ACTOR2  --|> SYSTEM
+SYSTEM1 --|> SYSTEM
+SYSTEM<|--SYSTEM2
+
+@enduml

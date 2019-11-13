@@ -1,0 +1,25 @@
+@startuml
+header
+<b>PROJECT_TITLE </b>- Use Case Model - Use Case
+end header
+
+:EXTERNAL ACTOR #1: as ACTOR1 <<human>>
+:EXTERNAL ACTOR #2: as ACTOR2 <<human>>
+
+rectangle "**EXTERNAL INFORMATION SYSTEM**"  {
+:EXTERNAL SYSTEM #1: as SYSTEM1<<system>>
+:EXTERNAL SYSTEM #2: as SYSTEM2<<system>>
+}
+
+ACTOR1 -->(**CONFIGURE** Component)
+ACTOR2 -->(**CONFIGURE** Component)
+
+ACTOR1-->(**USE** component)
+
+(**USE** component)--|> (**USE** Sub component1)
+(**USE** component)--|> (**USE** Sub component2**)
+SYSTEM2-up--> (**USE** Sub component1)
+SYSTEM1-up--> (**USE** Sub component2)
+SYSTEM1-up--> (**USE** Sub component1)
+
+@enduml
