@@ -5,4 +5,4 @@ relative_links:
   enabled: true
   collections: true
 include:
-  - ArchitectureDossier/0000.Introduction.md
+  - ./ArchitectureDossier/0000.Introduction.md
