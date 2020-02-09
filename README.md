@@ -14,20 +14,20 @@ Many advantages
 
 All you have to do is enrich the different files for the different chapters.
 
-| **Page**                      | **File**                      |
-| ----------------------------- | ----------------------------- |
-| **Introduction**              | 0000.Introduction.md          |
-| **Table of content**          | 0001.TableOfContent.md        |
-| **Glossary**                  | 0002.Glossary.md              |
-| **System Context**            | 0100.SystemContext.md         |
-| **UseCase Model**             | 0200.UseCaseModel.md          |
-| **Requirements**              | 0300.Requirements.md          |
-| **Component Model**           | 0400.ComponentsModel.md       |
-| **Architecture Overview**     | 0500.ArchitectureOverview.md  |
-| **Architecture Decisions**    | 0600.ArchitectureDecisions.md |
-| **Deployment Model**          | 0700.DeploymentModel.md       |
-| **Data Model**                | 0800.DataModel.md             |
-| **Architecture Walkthroughs** | 0900.Walkthroughs.md          |
+| **Page**                   | **File**                      |
+| -------------------------- | ----------------------------- |
+| **Introduction**           | 0000.Introduction.md          |
+| **Table of content**       | 0001.TableOfContent.md        |
+| **Glossary**               | 0002.Glossary.md              |
+| **System Context**         | 0100.SystemContext.md         |
+| **UseCase Model**          | 0200.UseCaseModel.md          |
+| **Requirements**           | 0300.Requirements.md          |
+| **Component Model**        | 0400.ComponentsModel.md       |
+| **Architecture Overview**  | 0500.ArchitectureOverview.md  |
+| **Architecture Decisions** | 0600.ArchitectureDecisions.md |
+| **Deployment Model**       | 0700.DeploymentModel.md       |
+| **Data Model**             | 0800.DataModel.md             |
+| **COTS List**              | 0900.COTSList.md              |
 
 > Remark : Filenames shall be preserved in order to allow the page navigation to work natively across pages.
 
